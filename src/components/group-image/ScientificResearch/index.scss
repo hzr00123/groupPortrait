@@ -1,0 +1,298 @@
+.ScientificResearch{
+  .mt25{
+    margin-top: 25px;
+  }
+  .text {
+    font-size: 16px;
+    font-family: Regular;
+    color: #203449;
+    line-height: 16px;
+    text-align: center;
+
+    span {
+      font-family: Bold;
+    }
+    .color{
+      color: #1B528B;
+    }
+  }
+
+
+
+}
+
+.over-view, .artistic-works {
+  .ScientificResearch-one {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    .up{
+      width: 100%;
+      height: 142px;
+      .mr50{
+        margin-right: 50px;
+      }
+      .mlr20{
+        margin: 0 20px 0 20px;
+      }
+    }
+    .chart{
+      width: 100%;
+      height: 300px;
+    }
+
+  }
+  .content-one{
+    padding-top: 15px;
+    .content-one-box{
+      width: 100%;
+      background: linear-gradient(-45deg, transparent 20px, rgba(220, 221, 221, 0.21) 0);
+      padding: 20px;
+      box-sizing: border-box;
+      margin-top: 14px;
+      .pie-chart{
+        width: 100%;
+        height: 178px;
+      }
+    }
+  }
+  .text {
+    font-size: 16px;
+    font-family: Regular;
+    color: #203449;
+    line-height: 16px;
+    text-align: center;
+
+    span {
+      font-family: Bold;
+    }
+    .color{
+      color: #1B528B;
+    }
+  }
+}
+
+.academic-papers {
+  .ScientificResearch-one {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    .up{
+      width: 100%;
+      height: 142px;
+      .mr50{
+        margin-right: 50px;
+      }
+      .mlr20{
+        margin: 0 20px 0 20px;
+      }
+    }
+    .chart{
+      width: 100%;
+      height: 300px;
+    }
+
+  }
+  .content-two{
+    padding-top: 15px;
+    .content-two-box{
+      width: 100%;
+      background: linear-gradient(-45deg, transparent 20px, rgba(220, 221, 221, 0.21) 0);
+      padding: 20px 20px 0 20px;
+      box-sizing: border-box;
+      margin-top: 14px;
+      .pie-chart{
+        width: 100%;
+        height: 178px;
+      }
+      .two-box-bottom{
+        align-items: flex-start;
+        .left{
+          width: 60%;
+          
+          .docment-chart{
+            width: 100%;
+            height: 165px;
+          }
+        }
+        .right{
+          width: 40%;
+          .three {
+            margin-top: 18px;
+            :deep(.el-progress-circle__track) {
+              // 修改进度条背景色 
+              stroke: #e2e6eb;
+              // stroke-width: 6;
+            }
+          }
+          .percentage-value{
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            background-color: #fff;
+            box-shadow: 0 0 5px 5px #E2E6EB;
+            line-height: 65px;
+            text-align: center;
+            margin: 0 auto;
+            font-size: 16px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  .text {
+    font-size: 16px;
+    font-family: Regular;
+    color: #203449;
+    line-height: 16px;
+    text-align: center;
+
+    span {
+      font-family: Bold;
+    }
+    .color{
+      color: #1B528B;
+    }
+  }
+}
+
+.academic-works,
+.appraisal-results {
+  .ScientificResearch-one {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    .up{
+      width: 100%;
+      height: 142px;
+      .mr50{
+        margin-right: 50px;
+      }
+      .mlr20{
+        margin: 0 20px 0 20px;
+      }
+    }
+    .chart{
+      width: 100%;
+      height: 300px;
+    }
+
+  }
+  .content-three{
+    padding-top: 15px;
+    .content-three-box{
+      width: 100%;
+      background: linear-gradient(-45deg, transparent 20px, rgba(220, 221, 221, 0.21) 0);
+      padding: 20px 20px 0 20px;
+      box-sizing: border-box;
+      margin-top: 14px;
+      margin-bottom: 20px;
+      .pie-chart{
+        width: 100%;
+        height: 178px;
+      }
+      .three-box-bottom{
+        
+      }
+    }
+  }
+  .text {
+    font-size: 16px;
+    font-family: Regular;
+    color: #203449;
+    line-height: 16px;
+    text-align: center;
+
+    span {
+      font-family: Bold;
+    }
+    .color{
+      color: #1B528B;
+    }
+  }
+}
+
+.research-report {
+  .ScientificResearch-one {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    .up{
+      width: 100%;
+      height: 142px;
+      .mr50{
+        margin-right: 50px;
+      }
+      .mlr20{
+        margin: 0 20px 0 20px;
+      }
+    }
+    .chart{
+      width: 100%;
+      height: 300px;
+    }
+
+  }
+  .content-four{
+    padding-top: 15px;
+    .content-four-box{
+      width: 100%;
+      background: linear-gradient(-45deg, transparent 20px, rgba(220, 221, 221, 0.21) 0);
+      padding: 20px;
+      box-sizing: border-box;
+      margin-top: 14px;
+      margin-bottom: 20px;
+      .four-box-top{
+        align-items: flex-start;
+        .left{
+          width: 50%;
+          padding-right: 15px;
+          .pie-chart{
+            width: 100%;
+            height: 178px;
+          }
+        }
+        .right{
+          padding-left: 15px;
+          width: 50%;
+          .pie-chart{
+            width: 100%;
+            height: 178px;
+          }
+        }
+      }
+      
+      .four-box-bottom{
+        align-items: flex-start;
+        .left{
+          width: 50%;
+          padding-right: 15px;
+          .docment-chart{
+            width: 100%;
+            height: 200px;
+          }
+        }
+        .right{
+          padding-left: 15px;
+          width: 50%;
+          .pie-chart{
+            width: 100%;
+            height: 200px;
+          }
+          
+        }
+      }
+    }
+  }
+  .text {
+    font-size: 16px;
+    font-family: Regular;
+    color: #203449;
+    line-height: 16px;
+    text-align: center;
+
+    span {
+      font-family: Bold;
+    }
+    .color{
+      color: #1B528B;
+    }
+  }
+}

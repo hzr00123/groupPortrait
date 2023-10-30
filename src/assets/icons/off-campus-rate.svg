@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 3</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="行为轨迹-不在校人员" transform="translate(-1114.000000, -233.000000)">
+            <g id="编组-3" transform="translate(1114.000000, 233.000000)">
+                <circle id="椭圆形" fill="#6477DD" opacity="0.130417597" cx="32" cy="32" r="32"></circle>
+                <circle id="椭圆形" fill="#6477DD" cx="31.6" cy="31.6" r="25.6"></circle>
+                <g id="编组" transform="translate(20.000000, 19.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M11.866517,1.26696613 C5.31198127,1.26696613 0,6.57894738 0,13.1334831 C0,19.6855776 5.31198124,25 11.866517,25 C18.4186115,25 23.7330339,19.6880188 23.7330339,13.1334831 L11.866517,13.1334831 L11.866517,1.26696613 Z" id="路径"></path>
+                    <path d="M13.1310419,0 L13.1310419,11.866517 L24.9975588,11.866517 C24.9975588,5.31198127 19.6855776,0 13.1310419,0 Z" id="路径" fill-opacity="0.372459572"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,309 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>智慧推荐</title>
+    <style>
+        html, body, #container {
+          width: 100%;
+          height: 100%;
+        }
+
+        body {
+          margin: 0;
+        }
+    </style>
+</head>
+<body>
+  <div class="topTitle" >
+    <span onClick="close33()">
+      <img src="./img/back.png" style="width:19px;height:28px">
+    </span>
+    <span>中国社会科学院大学</span>
+    <span style="visibility: hidden">隐藏</span></span>
+  </div>
+  <div id="container"></div>
+  <div class="positionSelect">
+    <div class="tabs">
+      <span class="tab-itm tab-active" id="liangxiang" onClick="changeCampus('良乡校区')">良乡校区</span>
+      <span class="tab-itm" id="wangjing" onClick="changeCampus('望京校区')">望京校区</span>
+    </div>
+  </div>
+  <div class="positionBottom display-none" id="promptTxt">
+
+  </div>
+</body>
+</html>
+<!-- <script type="text/javascript">
+  window._AMapSecurityConfig = {
+    securityJsCode:"「您申请的安全密钥」",
+  }
+</script> -->
+<script src="https://webapi.amap.com/loader.js"></script>
+<script src="./js/jquery.min.js"></script>
+<script type="text/javascript" >
+  let baseUrl = ''
+  let map = null
+  let markerList = []
+  let campus = '良乡校区'
+  initMap()
+
+  function initMap() {
+    AMapLoader.load({
+      key: "0efc8c6fe4432f09ed9996dd40645a6b",       // 申请好的Web端开发者Key，首次调用 load 时必填
+      version: "2.0",                 // 指定要加载的 JSAPI 的版本，缺省时默认为 1.4.15
+      plugins: ["AMap.HeatMap", "AMap.moveAnimation"] // 需要使用的的插件列表，如比例尺'AMap.Scale'等
+    }).then((AMap)=>{
+      // const map = new AMap.Map('container');
+      AMap.plugin("AMap.MoveAnimation", () => {});
+      //DOM初始化完成进行地图初始化
+      map = new AMap.Map("container", {
+        //设置地图容器id
+        resizeEnable: true,
+        zoom: campus === '良乡校区' ? 17.3 : 18.9, //初始化地图级别
+        zooms: [17.3,18], //缩放范围
+        center: campus === '良乡校区' ? [116.18,39.74] : [116.4780,39.9813] //初始化地图中心点位置
+      });
+      //初始化heatmap对象
+      getMarker(AMap)
+    }).catch((e)=>{
+      console.error(e);  //加载错误提示
+    });
+  }
+
+
+// 画点
+function createMaker(AMap) {
+  // 点标记显示内容，HTML要素字符串
+const markerContent = '' +
+'<div class="custom-content-marker">' +
+  '<div class="content" >' +
+  `<img src="./img/restaurant.png" style="width:15px;height:15px"/>` +
+  '<span>100/200</span>' +
+  `<img src="./img/set.png" style="width:18px;height:18px"/>` +
+  '</div>' +
+  '</div>';
+  const position = new AMap.LngLat(116.18,39.74); // Marker经纬度
+  const marker = new AMap.Marker({
+    position: position,
+    content: markerContent, // 将 html 传给 content
+    offset: new AMap.Pixel(-13, -30) // 以 icon 的 [center bottom] 为原点
+  });
+  map.add(marker);
+
+  const position2 = new AMap.LngLat(116.182,39.739); // Marker经纬度
+  const marker2 = new AMap.Marker({
+    position: position2,
+    content: markerContent, // 将 html 传给 content
+    offset: new AMap.Pixel(-13, -30) // 以 icon 的 [center bottom] 为原点
+  });
+  map.add(marker2);
+}
+
+
+function close33() {
+  window.close()
+}
+
+function getMarker() {
+   var getMenu = function (data, callback) {
+    // $.post(baseUrl + '/behaviorTrace/wisdomRecommendMap', data, callback, 'json')
+    $.ajax({
+      type:'post',
+      dataType:'json',
+      contentType:'application/json',
+      url:baseUrl + '/behaviorTrace/wisdomRecommendMap',
+      data:JSON.stringify(data),
+      success:callback
+    })
+  }
+
+  getMenu({campus:campus}, function (res) {
+    console.log(res,'xuanran')
+     let iconObj = {
+      '篮球场':'basketball',
+      '教学楼':'building',
+      '足球场':'football',
+      '体育馆':'gymnasium',
+      '图书馆':'library',
+      '北餐厅':'restaurant',
+    }
+     if(res.data.map1) {
+	 console.log(markerList)
+      map.remove(markerList);
+      res.data.map1.forEach((itm) => {
+        let promptTxt = ''
+        if(itm.maxNum && itm.currentNum) {
+          if(itm.currentNum > itm.maxNum * 0.9) {
+            promptTxt += itm.name
+          }
+        }
+
+        if(promptTxt) {
+          $('#promptTxt').removeClass('display-none')
+          $('#promptTxt').text('温馨提示：' + promptTxt + '人数较多')
+        } else {
+          $('#promptTxt').addClass('display-none')
+        }
+
+        let backHtml = ''
+        let iconShow = iconObj[itm.name] || 'building'
+        console.log('当前图标', iconShow)
+        if(['篮球场','足球场'].includes(itm.name)) {
+          backHtml =  '<div class="custom-content-marker">' +
+          '<div class="content" style="background-image: linear-gradient(#FC9F1A, #F7B733);">'
+        } else {
+          backHtml =  '<div class="custom-content-marker">' +
+          '<div class="content" style="background-image: linear-gradient(#0A6886, #2762B0);">'
+        }
+          const markerContent = backHtml +
+          '<div>' +
+          `<img src="./img/${iconShow}.png" style="width:15px;height:15px;margin-right:8px"/>` +
+          `<span>${itm.name}</span>` +
+          '</div>' +
+          `<span>${itm.currentNum || 0}${itm.maxNum ? '/' + itm.maxNum  : ''}</span>` +
+          '</div>' +
+          '</div>';
+          const position = new AMap.LngLat(itm.lng,itm.lat); // Marker经纬度
+          const marker = new AMap.Marker({
+            position: position,
+            content: markerContent, // 将 html 传给 content
+            offset: new AMap.Pixel(-13, -30) // 以 icon 的 [center bottom] 为原点
+          });
+          map.add(marker);
+          markerList.push(marker)
+      })
+     }
+  })
+}
+
+function changeCampus(name) {
+  if(name === '良乡校区') {
+    $('#wangjing').removeClass('tab-active')
+    $('#liangxiang').addClass('tab-active')
+  } else {
+    $('#liangxiang').removeClass('tab-active')
+    $('#wangjing').addClass('tab-active')
+  }
+  campus = name
+  initMap()
+}
+
+</script>
+<style>
+.display-none {
+  display: none;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tab-itm {
+  list-style: none;
+  width: 70px;
+  height: 25px;
+  background: inherit;
+  background-color: rgba(114, 116, 121, 0);
+  border:1px solid rgba(121, 121, 121, 1);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tab-active {
+  background: inherit;
+  background-color: rgba(51, 122, 183, 1);
+  border:1px solid rgba(51, 122, 183, 1);
+  border-radius: 5px;
+}
+
+
+#container {
+}
+
+.custom-content-marker{
+  padding: 3px;
+  width: 200px;
+  height: 34px;
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  margin-left:-100px;
+  box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.21);
+}
+
+.custom-content-marker::after{
+  content: '';
+  width: 0px;
+  height: 0px;
+  border: 7px solid;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-top: 7px solid #FFFFFF;
+  /*给绝对定位，根据需求设置三角形的位置*/
+  position: absolute;
+  top: 40px;
+  left: 100px;
+}
+
+
+.content {
+  text-align:center;
+  background-image: linear-gradient(#0A6886, #2762B0);
+  border-radius: 5px;
+  height:34px;
+  line-height:34px    ;
+  font-size: 16px;
+  font-family: AlibabaPuHuiTi_2_65_Medium;
+  color: #FFFFFF;
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.positionSelect {
+  position: fixed;
+  left: 10px;
+  top: 35px;
+}
+
+.topTitle {
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+  display: flex;
+  font-size: 23px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.positionBottom {
+  position: fixed;
+  bottom: 0;
+  width: 80%;
+  padding: 0 20px;
+  margin-left: 5%;
+  height: 40px;
+  background-color: rgba(230, 162, 60, 0.4980392156862745);
+  color: #E6A23C;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.amap-logo {
+    right: 0 !important;
+    left: auto !important;
+    display: none !important;
+}
+
+.amap-copyright {
+    right: 70px !important;
+    left: auto !important;
+    opacity:0 !important;
+}
+</style>

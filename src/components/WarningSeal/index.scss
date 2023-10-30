@@ -1,0 +1,51 @@
+.pane-contnet >#warning-seal {
+    width: 36%;
+    position: absolute;
+    top: 39px;
+    right: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    >.container-box {
+        display: flex;
+        .icon {
+            width: 90px;
+            height: 74px;
+            background: url(@/assets/imgs/warn-icon.png) no-repeat;
+            background-size: 100% 100%;
+            position: relative;
+            margin: 0 14px 0;
+            cursor: pointer;
+    
+            .tag {
+              width: 15px;
+              height: 15px;
+              display: block;
+              position: absolute;
+              top: 0;
+              right: -15px;
+              cursor: pointer;
+            }
+    
+            .txt {
+              width: 120px;
+              font-size: 13px;
+              font-family: Medium;
+              color: #B22924;
+              height: 13px;
+              line-height: 13px;
+              text-align: center;
+              transform: rotate(-30deg);
+              position: absolute;
+              top: 30px;
+              left: -15px;
+            }
+        }
+    }
+
+    .dialog-warning-des{
+        min-height: 200px;
+        max-height: 450px;
+        overflow-y: auto;
+    }
+}

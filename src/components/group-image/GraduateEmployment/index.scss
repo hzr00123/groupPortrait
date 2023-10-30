@@ -1,0 +1,1735 @@
+.graduate-employment {
+    .education-degree-awarding {
+        padding: 12px 20px;
+        hearder {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        section {
+            .education-degreeAwarding-left-view {
+                .top {
+                    display: flex;
+                    justify-content: center;
+                }
+                .content {
+                    .filter-strip {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-left: 114px;
+                        .legend-box {
+                            display: flex;
+                            .legend {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                margin-right: 12px;
+                    
+                                .tag {
+                                  width: 12px;
+                                  height: 4px;
+                                  background: #F39D12;
+                                  border-radius: 2px;
+                                }
+                    
+                                .text {
+                                  height: 14px;
+                                  font-size: 14px;
+                                  font-family: Regular;
+                                  color: #203449;
+                                  line-height: 14px;
+                                  margin-left: 10px;
+                                }
+                            }
+                        }
+                    }
+                    .bar-box {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        overflow-y: auto;
+                        overflow-x: hidden;
+                        padding-top: 20px;
+                        .bar-item {
+                            width: 100%;
+                            display: flex;
+                            justify-content: flex-end;
+                            align-items: center;
+                            margin-bottom: 24px;
+                  
+                            .y-title {
+                              margin-right: 14px;
+                              height: 16px;
+                              font-size: 16px;
+                              font-family: Regular;
+                              color: #000000;
+                              line-height: 16px;
+                              max-width: 160px;
+                              overflow: hidden;
+                              white-space: nowrap;
+                              text-overflow: ellipsis;
+                              width: 100px;
+                              text-align: right;
+                            }
+                  
+                            .item-ul {
+                              width: 504px;
+                              height: 16px;
+                              border-radius: 100px;
+                              border: 1px solid #c9dcec;
+                              display: flex;
+                              justify-content: space-between;
+                              align-items: center;
+                              padding: 0 4px;
+                  
+                              .item-ul-li {
+                                height: 8px;
+                                position: relative;
+                                background: var(--bgColor);
+                  
+                                .zb {
+                                  position: absolute;
+                                  text-align: center;
+                                  top: -23px;
+                                  // right: 50%;
+                                  font-size: 14px;
+                                  font-family: Medium;
+                                  color: #203449;
+                                  line-height: 20px;
+                                }
+                              }
+                  
+                              .item-ul-li:first-child {
+                                border-radius: 8px 0 0 8px;
+                  
+                                .zb {
+                                  left: 0;
+                                }
+                              }
+                  
+                              .item-ul-li:last-child {
+                                border-radius: 0 8px 8px 0;
+                  
+                                .zb {
+                                  right: 0;
+                                }
+                              }
+                            }
+                        }
+                    }
+                }
+            }
+            .right-view {
+              .analyze-box {
+                
+                .el-progress {
+                  .el-progress-circle__track {
+                    stroke: #E2EAEF;
+                    stroke-width: 6;
+                  }
+                }
+                .one-1 {
+                  .el-progress-circle__track {
+                    stroke: #EFE1E1;
+                    stroke-width: 6;
+                  }
+                }
+                .percentage-value {
+                  font-size: 26px;
+                }
+                .name {
+                  font-size: 16px;
+                  font-family: Regular;
+                  color: #203449;
+                  line-height: 22px;
+                }
+                .docment-chart {
+                  height: 145px;
+                }
+              }
+            }
+            .ColorCard {
+                width: 220px !important;
+                img {
+                    width: 32px !important;
+                    height: 26px !important;
+                    margin: 0 16px 0 18px;
+                }
+            }
+            
+        }
+    }
+    .graduate-employment-right {
+      padding: 12px 20px;
+    }
+}
+
+.education-degreeAwarding-left-view {
+  .top {
+      display: flex;
+      justify-content: center;
+  }
+  .content {
+      .filter-strip {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-left: 114px;
+          .legend-box {
+              display: flex;
+              .legend {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  margin-right: 12px;
+      
+                  .tag {
+                    width: 12px;
+                    height: 4px;
+                    background: #F39D12;
+                    border-radius: 2px;
+                  }
+      
+                  .text {
+                    height: 14px;
+                    font-size: 14px;
+                    font-family: Regular;
+                    color: #203449;
+                    line-height: 14px;
+                    margin-left: 10px;
+                  }
+              }
+          }
+      }
+      .bar-box {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          overflow-y: auto;
+          overflow-x: hidden;
+          padding-top: 20px;
+          .bar-item {
+              width: 100%;
+              display: flex;
+              justify-content: flex-end;
+              align-items: center;
+              margin-bottom: 24px;
+    
+              .y-title {
+                margin-right: 14px;
+                height: 16px;
+                font-size: 16px;
+                font-family: Regular;
+                color: #000000;
+                line-height: 16px;
+                max-width: 160px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                width: 100px;
+                text-align: right;
+              }
+    
+              .item-ul {
+                width: 504px;
+                height: 16px;
+                border-radius: 100px;
+                border: 1px solid #c9dcec;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 4px;
+    
+                .item-ul-li {
+                  height: 8px;
+                  position: relative;
+                  background: var(--bgColor);
+    
+                  .zb {
+                    position: absolute;
+                    text-align: center;
+                    top: -23px;
+                    // right: 50%;
+                    font-size: 14px;
+                    font-family: Medium;
+                    color: #203449;
+                    line-height: 20px;
+                  }
+                }
+    
+                .item-ul-li:first-child {
+                  border-radius: 8px 0 0 8px;
+    
+                  .zb {
+                    left: 0;
+                  }
+                }
+    
+                .item-ul-li:last-child {
+                  border-radius: 0 8px 8px 0;
+    
+                  .zb {
+                    right: 0;
+                  }
+                }
+              }
+          }
+      }
+  }
+}
+
+$legendColor: var(--legendColor);
+
+.thesisInfo-left {
+  .thesisInfo-left-top {
+    height: 90px;
+    .flex-c {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 20px;
+    }
+    .step-line-main {
+      display: flex;
+      // width: 535px;
+      .step-line-line {
+        flex: 1;
+        height: 8px;
+        .line-icon{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .line-step-2{
+        flex: 1;
+        height: 8px;
+        border-bottom: 8px dotted #b22924;
+        margin: 0 20px;
+      }
+    }
+    .step-line-step {
+      position: relative;
+      cursor: pointer;
+      .text {
+        position: absolute;
+        bottom: -30px;
+        left: -55px;
+        display: inline-block;
+        width: 160px;
+        text-align: center;
+        font-size: 16px;
+        font-family: Regular;
+        color: #203449;
+        line-height: 22px;
+      }
+      > div {
+        background: #f7eeef;
+        color: #b22924;
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        justify-content: center;
+        > div {
+          background: #f3e2e2;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          justify-content: center;
+          > div {
+            background: #efd6d6;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            justify-content: center;
+          }
+        }
+      }
+  
+      &.is-step {
+        .text {
+          color: #b22924;
+        }
+        > div {
+          background: #ecd0d0;
+          color: #ffffff;
+          > div {
+            background: #e0aeac;
+            > div {
+              background: #b22924;
+            }
+          }
+        }
+      }
+    }
+  }
+  .thesisInfo-left-screen-top {
+    .legend-btn {
+      display: flex;
+      .item-btn {
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        font-family: Regular;
+        font-weight: 400;
+        color: #203449;
+        line-height: 20px;
+        &::before {
+          content: "";
+          display: inline-block;
+          width: 12px;
+          height: 4px;
+          background-color: $legendColor;
+          margin-right: 6px;
+        }
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  .thesisInfo-left-filtration {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &[isPaperReview="true"] {
+      align-items:flex-end;
+    }
+  }
+  .thesisInfo-left-progress-bar {
+    max-height: 325px;
+    overflow: auto;
+    li {
+      display: flex;
+      align-items: flex-end;
+      .text {
+        text-align: right;
+        font-size: 16px;
+        font-family: Regular;
+        font-weight: 400;
+        color: #000000;
+        line-height: 22px;
+        width: 20%;
+        margin-right: 12px;
+        overflow:hidden; //超出的文本隐藏
+        text-overflow:ellipsis; //溢出用省略号显示
+        white-space:nowrap; //溢出不换行
+      }
+      .progress-bar-box {
+        flex: 1;
+        .rate {
+          font-size: 14px;
+          font-family: Medium;
+          color: #203449;
+          line-height: 20px;
+        }
+        .out-rect {
+          flex: 1;
+          height: 15px;
+          padding: 0 4px;
+          clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 15px, 100% calc(100% - 0px),
+              calc(100% - 0px) 100%, 0px 100%, 0 calc(100% - 0px), 0 0px);
+          background: linear-gradient(-45deg, #d2e2f0 0px, rgba(248, 248, 248, 0) 0) bottom right,
+            linear-gradient(45deg, #d2e2f0 0px, rgba(216, 236, 255, 0) 0) bottom left,
+            linear-gradient(135deg, #d2e2f0 0px, rgba(216, 236, 255, 0) 0) top left,
+            linear-gradient(-115deg, #d2e2f0 6px, rgba(216, 236, 255, 0) 0) top right;
+          background-repeat: no-repeat;
+          border: solid 1px #d2e2f0;
+          border-radius: 15px 0 0 15px;
+          display: flex;
+          align-items: center;
+          .in-rect {
+            width: 0%;
+            height: 7px;
+            background: linear-gradient(250deg, transparent 4px, #45A0E6 0);
+          }
+        }
+      }
+    }
+  }
+  .mean-value {
+    font-size: 16px;
+    font-family: Regular;
+    color: #203449;
+    line-height: 22px;
+    text-align: center;
+    margin-left: 20%;
+    .bold {
+      color: #005DA7;
+      font-weight: bold;
+    }
+  }
+}
+
+.thesisInfo-right {
+  background: #F7F7F7;
+  padding: 20px;
+  .proposal-rate-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .thesis-rate-progress{
+      .el-progress-circle {
+        .el-progress-circle__track {
+          // 修改进度条背景色 
+          stroke: #E2EAEF;
+          stroke-width: 6;
+        }
+        
+      }
+      .percentage-value {
+        font-size: 26px;
+        font-family: Bold;
+        span {
+          font-size: 16px;
+          font-family: Regular;
+        }
+      }
+    }
+    .name {
+      font-size: 16px;
+      font-family: Regular;
+      color: #203449;
+      line-height: 22px;
+    }
+  }
+  .research-direction-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .research-direction {
+      width: 340px;
+      height: 166px;
+    }
+    .name {
+      font-size: 16px;
+      font-family: Regular;
+      color: #203449;
+      line-height: 22px;
+    }
+  }
+  .percent-of-pass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .stopwatch {
+      width: 300px;
+      height: 300px;
+    }
+    .gauge-box {
+      display: flex;
+      align-items: center;
+      &::before {
+        display: inline-block;
+        content: "";
+        width: 12px;
+        height: 4px;
+        background-color: #45A0E6;
+        margin-right: 6px;
+      }
+      .txt {
+        font-size: 14px;
+        font-family: Regular;
+        color: #333333;
+        line-height: 20px;
+      }
+      .num {
+        font-size: 14px;
+        font-family: Bold;
+        color: #333333;
+        line-height: 20px;
+      }
+    }
+  }
+  .percent-of-pass2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    .stopwatch {
+      width: 300px;
+      height: 300px;
+    }
+    .gauge-box {
+      display: flex;
+      align-items: center;
+      &::before {
+        display: inline-block;
+        content: "";
+        width: 12px;
+        height: 4px;
+        background-color: #4D5FC1;
+        margin-right: 6px;
+      }
+      .txt {
+        font-size: 14px;
+        font-family: Regular;
+        color: #333333;
+        line-height: 20px;
+      }
+      .num {
+        font-size: 14px;
+        font-family: Bold;
+        color: #333333;
+        line-height: 20px;
+      }
+    }
+  }
+  .percent-card-style {
+    display: flex;
+    justify-content: space-around;
+  }
+  .result-distribution {
+    height: 200px;
+  }
+  .waterPolo {
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.destination-after-graduation-left {
+  .filtration-btn {
+    margin-left: 138px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .legend-btn {
+      display: flex;
+      .item-btn {
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        font-family: Regular;
+        font-weight: 400;
+        color: #203449;
+        line-height: 20px;
+        &::before {
+          content: "";
+          display: inline-block;
+          width: 12px;
+          height: 4px;
+          background-color: $legendColor;
+          margin-right: 6px;
+        }
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  .operation-btn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .employment-charts {
+    height: 250px;
+  }
+  .industry-charts, .salary-charts {
+    width: 100%;
+    height: 440px;
+  }
+}
+
+.destination-after-graduation-right {
+  background-color: #F7F7F7;
+  padding: 20px;
+  .destination-type-branch {
+    height: 300px;
+  }
+  .branch-progress-bar {
+    li {
+      display: flex;
+      align-items: flex-end;
+      align-items: center;
+      .ranking {
+        width: 14px;
+        height: 14px;
+        background: #B22924;
+        line-height: 14px;
+        text-align: center;
+        color: #FFF;
+        font-size: 12px;
+        margin-right: 4px;
+      }
+      .r-active {
+        opacity: 0.5;
+      }
+      .text {
+        text-align: right;
+        font-size: 16px;
+        font-family: Regular;
+        font-weight: 400;
+        color: #000000;
+        line-height: 22px;
+        width: 50px;
+        margin-right: 12px;
+        overflow:hidden; //超出的文本隐藏
+        text-overflow:ellipsis; //溢出用省略号显示
+        white-space:nowrap; //溢出不换行
+      }
+      .progress-bar-box {
+        flex: 1;
+        .out-rect {
+          flex: 1;
+          height: 15px;
+          padding: 0 4px;
+          clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 15px, 100% calc(100% - 0px),
+              calc(100% - 0px) 100%, 0px 100%, 0 calc(100% - 0px), 0 0px);
+          background: linear-gradient(-45deg, #d2e2f0 0px, rgba(248, 248, 248, 0) 0) bottom right,
+            linear-gradient(45deg, #d2e2f0 0px, rgba(216, 236, 255, 0) 0) bottom left,
+            linear-gradient(135deg, #d2e2f0 0px, rgba(216, 236, 255, 0) 0) top left,
+            linear-gradient(-115deg, #d2e2f0 6px, rgba(216, 236, 255, 0) 0) top right;
+          background-repeat: no-repeat;
+          border: solid 1px #d2e2f0;
+          border-radius: 15px 0 0 15px;
+          display: flex;
+          align-items: center;
+          .in-rect {
+            width: 0%;
+            height: 7px;
+            background: linear-gradient(250deg, transparent 4px, #005DA7 0);
+          }
+        }
+      }
+      .num {
+        margin-left: 8px;
+      }
+    }
+  }
+  .pie-charts-box {
+    display: flex;
+    justify-content: space-between;
+    .man-pie, .woman-pie {
+      width: 49%;
+      height: 200px;
+    }
+  }
+  .choose-job-sex, .choose-job-specialty {
+    height: 200px;
+  }
+  .firm-sex-difference {
+    display: flex;
+    justify-content: space-between;
+    .sexDifference {
+      width: 46%;
+      height: 300px;
+    }
+  }
+  .salary-branch {
+    display: flex;
+    justify-content: space-between;
+    .salary-card-box {
+      height: 80px;
+      width: 280px;
+      background: #FFF;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 10px;
+      position: relative;
+      .card-box-title {
+        font-size: 18px;
+        font-family: Regular;
+        color: #1F384A;
+        line-height: 25px;
+      }
+      .card-box-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        .money {
+          font-size: 22px;
+          font-family: SemiBold;
+          color: #1B528B;
+          line-height: 30px;
+        }
+        .class {
+          font-size: 14px;
+          font-family: Regular;
+          color: #1F384A;
+          line-height: 20px;
+        }
+      }
+      &::before {
+        display: block;
+        content: "";
+        width: 5px;
+        height: 80px;
+        background: #005DA7;
+        position: absolute;
+        top: 0;
+        left: 0px;
+      }
+      &:last-child {
+        &::before{
+          background: #F39702;
+        }
+        .card-box-bottom {
+          .money {
+            color: #F39702;
+          }
+        }
+      }
+    }
+  }
+  .annual-salary-ranking {
+    display: flex;
+    justify-content: space-between;
+    >.branch-progress-bar {
+      width: 46%;
+      > li{
+        margin-bottom: 25px;
+        .text {
+          text-align: right;
+          font-size: 14px;
+          font-family: Regular;
+          font-weight: 400;
+          color: #000000;
+          line-height: 22px;
+          width: 80px;
+          margin-right: 6px;
+          overflow:hidden; //超出的文本隐藏
+          text-overflow:ellipsis; //溢出用省略号显示
+          white-space:nowrap; //溢出不换行
+        }
+        .num {
+          margin-left: 5px;
+          font-size: 14px;
+        }
+      }
+      >.hint-text {
+        display: inline;
+        text-align: left;
+      }
+      &:last-child {
+        li {
+          .progress-bar-box{
+            .out-rect {
+              .in-rect {
+                background: linear-gradient(250deg, transparent 4px, #45A0E6 0);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.hint-text {
+  text-align: center;
+  font-size: 16px;
+  font-family: Regular;
+  color: #203449;
+  line-height: 22px;
+  .bold {
+    font-weight: bold;
+  }
+}
+
+.career-planning {
+  padding: 20px;
+}
+
+.career-planning-left {
+  .career-planning-charts {
+    height: 200px;
+  }
+  .text-hint {
+    font-size: 16px;
+    font-family: Regular;
+    color: #203449;
+    line-height: 22px;
+    // margin-left: 132px;
+    width: 420px;
+    text-align: center;
+  }
+}
+
+.career-planning-right {
+  >section {
+    padding: 20px;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-between;
+    >.container-box {
+      width: 48%;
+      .sexContrast {
+        // width: 120px;
+        width: 100%;
+        height: 110px;
+      }
+      .Progress-1 {
+        .el-progress-circle__track {
+          stroke: #EFE1E1;
+          stroke-width: 6;
+        }
+      }
+      .Progress-2 {
+        .el-progress-circle__track {
+          stroke: #E4EDF4;
+          stroke-width: 6;
+        }
+      }
+      .innovation-proportion {
+        .percentage-value {
+          font-size: 26px;
+        }
+        .el-progress-circle__track {
+          stroke: #E4EDF4;
+          stroke-width: 6;
+        }
+      }
+      .branch-progress-bar {
+        li {
+          display: flex;
+          align-items: flex-end;
+          align-items: center;
+          margin-bottom: 20px;
+          .ranking {
+            width: 14px;
+            height: 14px;
+            background: #B22924;
+            line-height: 14px;
+            text-align: center;
+            color: #FFF;
+            font-size: 12px;
+            margin-right: 4px;
+          }
+          .r-active {
+            opacity: 0.5;
+          }
+          .text {
+            text-align: right;
+            font-size: 14px;
+            font-family: Regular;
+            font-weight: 400;
+            color: #000000;
+            line-height: 22px;
+            width: 80px;
+            margin-right: 6px;
+            overflow:hidden; //超出的文本隐藏
+            text-overflow:ellipsis; //溢出用省略号显示
+            white-space:nowrap; //溢出不换行
+          }
+          .progress-bar-box {
+            flex: 1;
+            .out-rect {
+              flex: 1;
+              height: 15px;
+              padding: 0 4px;
+              clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 15px, 100% calc(100% - 0px),
+                  calc(100% - 0px) 100%, 0px 100%, 0 calc(100% - 0px), 0 0px);
+              background: linear-gradient(-45deg, #d2e2f0 0px, rgba(248, 248, 248, 0) 0) bottom right,
+                linear-gradient(45deg, #d2e2f0 0px, rgba(216, 236, 255, 0) 0) bottom left,
+                linear-gradient(135deg, #d2e2f0 0px, rgba(216, 236, 255, 0) 0) top left,
+                linear-gradient(-115deg, #d2e2f0 6px, rgba(216, 236, 255, 0) 0) top right;
+              background-repeat: no-repeat;
+              border: solid 1px #d2e2f0;
+              border-radius: 15px 0 0 15px;
+              display: flex;
+              align-items: center;
+              .in-rect {
+                width: 0%;
+                height: 7px;
+                background: linear-gradient(250deg, transparent 4px, #005DA7 0);
+              }
+            }
+          }
+          .num {
+            margin-left: 5px;
+            font-size: 14px;
+          }
+        }
+        .hint-text {
+          display: inline;
+          text-align: left; 
+        }
+      }
+      &:last-child {
+        .branch-progress-bar {
+          li{
+            .progress-bar-box {
+              .in-rect {
+                background: linear-gradient(250deg, transparent 4px, #45A0E6 0);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.innovation-business {
+  padding: 20px;
+}
+
+.innovation-business-left {
+  .innovation-business-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .innovation-business-top {
+    display: flex;
+    justify-content: center;
+  }
+  >.filter-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 114px;
+    .legend-box {
+        display: flex;
+        .legend {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-right: 12px;
+
+            .tag {
+              width: 12px;
+              height: 4px;
+              background: #F39D12;
+              border-radius: 2px;
+            }
+
+            .text {
+              height: 14px;
+              font-size: 14px;
+              font-family: Regular;
+              color: #203449;
+              line-height: 14px;
+              margin-left: 10px;
+            }
+        }
+    }
+  }
+  > section {
+    >.bar-box {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding-top: 20px;
+      .bar-item {
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          margin-bottom: 24px;
+
+          .y-title {
+            margin-right: 14px;
+            height: 16px;
+            font-size: 16px;
+            font-family: Regular;
+            color: #000000;
+            line-height: 16px;
+            max-width: 160px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            width: 100px;
+            text-align: right;
+          }
+
+          .item-ul {
+            width: 504px;
+            height: 16px;
+            border-radius: 100px;
+            border: 1px solid #c9dcec;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 4px;
+
+            .item-ul-li {
+              height: 8px;
+              position: relative;
+              background: var(--bgColor);
+
+              .zb {
+                position: absolute;
+                text-align: center;
+                top: -23px;
+                // right: 50%;
+                font-size: 14px;
+                font-family: Medium;
+                color: #203449;
+                line-height: 20px;
+              }
+            }
+
+            .item-ul-li:first-child {
+              border-radius: 8px 0 0 8px;
+
+              .zb {
+                left: 0;
+              }
+            }
+
+            .item-ul-li:last-child {
+              border-radius: 0 8px 8px 0;
+
+              .zb {
+                right: 0;
+              }
+            }
+          }
+      }
+    }
+    .chartsNum {
+      height: 300px;
+    }
+  }
+  .industry-charts {
+    height: 500px;
+  }
+}
+
+.innovation-business-right {
+  >section {
+    padding: 20px;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-between;
+    >.container-box {
+      width: 48%;
+      .sexContrast {
+        // width: 120px;
+        width: 100%;
+        height: 145px;
+      }
+      .innovation-proportion {
+        .percentage-value {
+          font-size: 26px;
+        }
+        .el-progress-circle__track {
+          stroke: #E4EDF4;
+          stroke-width: 6;
+        }
+      }
+      .branch-progress-bar {
+        li {
+          display: flex;
+          align-items: flex-end;
+          align-items: center;
+          margin-bottom: 20px;
+          .ranking {
+            width: 14px;
+            height: 14px;
+            background: #B22924;
+            line-height: 14px;
+            text-align: center;
+            color: #FFF;
+            font-size: 12px;
+            margin-right: 4px;
+          }
+          .r-active {
+            opacity: 0.5;
+          }
+          .text {
+            text-align: right;
+            font-size: 14px;
+            font-family: Regular;
+            font-weight: 400;
+            color: #000000;
+            line-height: 22px;
+            width: 80px;
+            margin-right: 6px;
+            overflow:hidden; //超出的文本隐藏
+            text-overflow:ellipsis; //溢出用省略号显示
+            white-space:nowrap; //溢出不换行
+          }
+          .progress-bar-box {
+            flex: 1;
+            .out-rect {
+              flex: 1;
+              height: 15px;
+              padding: 0 4px;
+              clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 15px, 100% calc(100% - 0px),
+                  calc(100% - 0px) 100%, 0px 100%, 0 calc(100% - 0px), 0 0px);
+              background: linear-gradient(-45deg, #d2e2f0 0px, rgba(248, 248, 248, 0) 0) bottom right,
+                linear-gradient(45deg, #d2e2f0 0px, rgba(216, 236, 255, 0) 0) bottom left,
+                linear-gradient(135deg, #d2e2f0 0px, rgba(216, 236, 255, 0) 0) top left,
+                linear-gradient(-115deg, #d2e2f0 6px, rgba(216, 236, 255, 0) 0) top right;
+              background-repeat: no-repeat;
+              border: solid 1px #d2e2f0;
+              border-radius: 15px 0 0 15px;
+              display: flex;
+              align-items: center;
+              .in-rect {
+                width: 0%;
+                height: 7px;
+                background: linear-gradient(250deg, transparent 4px, #005DA7 0);
+              }
+            }
+          }
+          .num {
+            margin-left: 5px;
+            font-size: 14px;
+          }
+        }
+        .hint-text {
+          display: inline;
+          text-align: left; 
+        }
+      }
+      &:last-child {
+        .branch-progress-bar {
+          li{
+            .progress-bar-box {
+              .in-rect {
+                background: linear-gradient(250deg, transparent 4px, #45A0E6 0);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .orientation-top {
+    .branch-progress-bar {
+      li {
+        display: flex;
+        align-items: flex-end;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        .ranking {
+          width: 14px;
+          height: 14px;
+          background: #B22924;
+          line-height: 14px;
+          text-align: center;
+          color: #FFF;
+          font-size: 12px;
+          margin-right: 4px;
+        }
+        .r-active {
+          opacity: 0.5;
+        }
+        .text {
+          text-align: right;
+          font-size: 14px;
+          font-family: Regular;
+          font-weight: 400;
+          color: #000000;
+          line-height: 22px;
+          width: 80px;
+          margin-right: 6px;
+          overflow:hidden; //超出的文本隐藏
+          text-overflow:ellipsis; //溢出用省略号显示
+          white-space:nowrap; //溢出不换行
+        }
+        .progress-bar-box {
+          width: 180px;
+          .out-rect {
+            flex: 1;
+            height: 15px;
+            padding: 0 4px;
+            clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 15px, 100% calc(100% - 0px),
+                calc(100% - 0px) 100%, 0px 100%, 0 calc(100% - 0px), 0 0px);
+            background: linear-gradient(-45deg, #d2e2f0 0px, rgba(248, 248, 248, 0) 0) bottom right,
+              linear-gradient(45deg, #d2e2f0 0px, rgba(216, 236, 255, 0) 0) bottom left,
+              linear-gradient(135deg, #d2e2f0 0px, rgba(216, 236, 255, 0) 0) top left,
+              linear-gradient(-115deg, #d2e2f0 6px, rgba(216, 236, 255, 0) 0) top right;
+            background-repeat: no-repeat;
+            border: solid 1px #d2e2f0;
+            border-radius: 15px 0 0 15px;
+            display: flex;
+            align-items: center;
+            .in-rect {
+              width: 0%;
+              height: 7px;
+              background: linear-gradient(250deg, transparent 4px, #005DA7 0);
+            }
+          }
+        }
+        .num {
+          margin-left: 5px;
+          font-size: 14px;
+        }
+      }
+      .hint-text {
+        display: inline;
+        text-align: left; 
+      }
+    }
+  }
+  .difference-content {
+    justify-content: space-between;
+    .branch-progress-bar {
+      li {
+        display: flex;
+        align-items: flex-end;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        .ranking {
+          width: 14px;
+          height: 14px;
+          background: #B22924;
+          line-height: 14px;
+          text-align: center;
+          color: #FFF;
+          font-size: 12px;
+          margin-right: 4px;
+        }
+        .r-active {
+          opacity: 0.5;
+        }
+        .text {
+          text-align: right;
+          font-size: 14px;
+          font-family: Regular;
+          font-weight: 400;
+          color: #000000;
+          line-height: 22px;
+          width: 80px;
+          margin-right: 6px;
+          overflow:hidden; //超出的文本隐藏
+          text-overflow:ellipsis; //溢出用省略号显示
+          white-space:nowrap; //溢出不换行
+        }
+        .progress-bar-box {
+          width: 180px;
+          .out-rect {
+            flex: 1;
+            height: 15px;
+            padding: 0 4px;
+            clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 15px, 100% calc(100% - 0px),
+                calc(100% - 0px) 100%, 0px 100%, 0 calc(100% - 0px), 0 0px);
+            background: linear-gradient(-45deg, #d2e2f0 0px, rgba(248, 248, 248, 0) 0) bottom right,
+              linear-gradient(45deg, #d2e2f0 0px, rgba(216, 236, 255, 0) 0) bottom left,
+              linear-gradient(135deg, #d2e2f0 0px, rgba(216, 236, 255, 0) 0) top left,
+              linear-gradient(-115deg, #d2e2f0 6px, rgba(216, 236, 255, 0) 0) top right;
+            background-repeat: no-repeat;
+            border: solid 1px #d2e2f0;
+            border-radius: 15px 0 0 15px;
+            display: flex;
+            align-items: center;
+            .in-rect {
+              width: 0%;
+              height: 7px;
+              background: linear-gradient(250deg, transparent 4px, #005DA7 0);
+            }
+          }
+        }
+        .num {
+          margin-left: 5px;
+          font-size: 14px;
+          width: 20%;
+        }
+      }
+      .hint-text {
+        display: inline;
+        text-align: left; 
+      }
+    }
+  }
+}
+
+.pubMed-situation {
+  padding: 20px;
+}
+.pubMed-situation-left {
+  height: 100%;
+  .pubMed-situation-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pubMed-situation-top {
+    display: flex;
+    justify-content: center;
+  }
+  .pubMed-filter-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 114px;
+    .legend-box {
+      display: flex;
+      .legend {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-right: 12px;
+
+          .tag {
+            width: 12px;
+            height: 4px;
+            background: #F39D12;
+            border-radius: 2px;
+          }
+
+          .text {
+            height: 14px;
+            font-size: 14px;
+            font-family: Regular;
+            color: #203449;
+            line-height: 14px;
+            margin-left: 10px;
+          }
+      }
+    }
+  }
+  > section {
+    >.bar-box {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding-top: 20px;
+      .bar-item {
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          margin-bottom: 24px;
+
+          .y-title {
+            margin-right: 14px;
+            height: 16px;
+            font-size: 16px;
+            font-family: Regular;
+            color: #000000;
+            line-height: 16px;
+            max-width: 160px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            width: 100px;
+            text-align: right;
+          }
+
+          .item-ul {
+            width: 504px;
+            height: 16px;
+            border-radius: 100px;
+            border: 1px solid #c9dcec;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 4px;
+
+            .item-ul-li {
+              height: 8px;
+              position: relative;
+              background: var(--bgColor);
+
+              .zb {
+                position: absolute;
+                text-align: center;
+                top: -23px;
+                // right: 50%;
+                font-size: 14px;
+                font-family: Medium;
+                color: #203449;
+                line-height: 20px;
+              }
+            }
+
+            .item-ul-li:first-child {
+              border-radius: 8px 0 0 8px;
+
+              .zb {
+                left: 0;
+              }
+            }
+
+            .item-ul-li:last-child {
+              border-radius: 0 8px 8px 0;
+
+              .zb {
+                right: 0;
+              }
+            }
+          }
+      }
+    }
+    .chartsNum {
+      height: 300px;
+    }
+  }
+}
+$featureBgColor: var(--featureBgColor);
+.pubMed-situation-right {
+  >section {
+    padding: 20px;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-between;
+    >.container-box {
+      width: 48%;
+      .sexContrast {
+        // width: 120px;
+        width: 100%;
+        height: 145px;
+      }
+      .innovation-proportion {
+        .percentage-value {
+          font-size: 26px;
+        }
+        .el-progress-circle__track {
+          stroke: #E4EDF4;
+          stroke-width: 6;
+        }
+      }
+      .branch-progress-bar {
+        li {
+          display: flex;
+          align-items: flex-end;
+          align-items: center;
+          margin-bottom: 20px;
+          .ranking {
+            width: 14px;
+            height: 14px;
+            background: #B22924;
+            line-height: 14px;
+            text-align: center;
+            color: #FFF;
+            font-size: 12px;
+            margin-right: 4px;
+          }
+          .r-active {
+            opacity: 0.5;
+          }
+          .text {
+            text-align: right;
+            font-size: 14px;
+            font-family: Regular;
+            font-weight: 400;
+            color: #000000;
+            line-height: 22px;
+            width: 80px;
+            margin-right: 6px;
+            overflow:hidden; //超出的文本隐藏
+            text-overflow:ellipsis; //溢出用省略号显示
+            white-space:nowrap; //溢出不换行
+          }
+          .progress-bar-box {
+            flex: 1;
+            .out-rect {
+              flex: 1;
+              height: 15px;
+              padding: 0 4px;
+              clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 15px, 100% calc(100% - 0px),
+                  calc(100% - 0px) 100%, 0px 100%, 0 calc(100% - 0px), 0 0px);
+              background: linear-gradient(-45deg, #d2e2f0 0px, rgba(248, 248, 248, 0) 0) bottom right,
+                linear-gradient(45deg, #d2e2f0 0px, rgba(216, 236, 255, 0) 0) bottom left,
+                linear-gradient(135deg, #d2e2f0 0px, rgba(216, 236, 255, 0) 0) top left,
+                linear-gradient(-115deg, #d2e2f0 6px, rgba(216, 236, 255, 0) 0) top right;
+              background-repeat: no-repeat;
+              border: solid 1px #d2e2f0;
+              border-radius: 15px 0 0 15px;
+              display: flex;
+              align-items: center;
+              .in-rect {
+                width: 0%;
+                height: 7px;
+                background: linear-gradient(250deg, transparent 4px, #005DA7 0);
+              }
+            }
+          }
+          .num {
+            margin-left: 5px;
+            font-size: 14px;
+          }
+        }
+        .hint-text {
+          display: inline;
+          text-align: left; 
+        }
+      }
+      &:last-child {
+        .branch-progress-bar {
+          li{
+            .progress-bar-box {
+              .in-rect {
+                background: linear-gradient(250deg, transparent 4px, #45A0E6 0);
+              }
+            }
+          }
+        }
+      }
+    }
+    
+  }
+  .content-box {
+    .container-feature-box {
+      .three {
+        .el-progress-circle__track {
+          stroke: #e2e6eb;
+        }
+        .percentage-value{
+          display: block;
+          width: 65px;
+          height: 65px;
+          border-radius: 50%;
+          background-color: #fff;
+          box-shadow: 0 0 5px 5px #E2E6EB;
+          line-height: 65px;
+          text-align: center;
+          margin: 0 auto;
+          font-size: 16px;
+          font-weight: bold;
+          font-family: YouSheBiaoTiHei;
+        }
+      }
+      >.branch-progress-bar {
+        min-height: 230px;
+        li {
+          display: flex;
+          align-items: flex-end;
+          align-items: center;
+          margin-bottom: 30px;
+          .ranking {
+            width: 14px;
+            height: 14px;
+            background: #B22924;
+            line-height: 14px;
+            text-align: center;
+            color: #FFF;
+            font-size: 12px;
+            margin-right: 4px;
+          }
+          .r-active {
+            opacity: 0.5;
+          }
+          .text {
+            text-align: right;
+            font-size: 14px;
+            font-family: Regular;
+            font-weight: 400;
+            color: #000000;
+            line-height: 22px;
+            width: 80px;
+            margin-right: 6px;
+            overflow:hidden; //超出的文本隐藏
+            text-overflow:ellipsis; //溢出用省略号显示
+            white-space:nowrap; //溢出不换行
+          }
+          .progress-bar-box {
+            width: 160px;
+            .out-rect {
+              flex: 1;
+              height: 15px;
+              padding: 0 4px;
+              clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 15px, 100% calc(100% - 0px),
+                  calc(100% - 0px) 100%, 0px 100%, 0 calc(100% - 0px), 0 0px);
+              background: linear-gradient(-45deg, #d2e2f0 0px, rgba(248, 248, 248, 0) 0) bottom right,
+                linear-gradient(45deg, #d2e2f0 0px, rgba(216, 236, 255, 0) 0) bottom left,
+                linear-gradient(135deg, #d2e2f0 0px, rgba(216, 236, 255, 0) 0) top left,
+                linear-gradient(-115deg, #d2e2f0 6px, rgba(216, 236, 255, 0) 0) top right;
+              background-repeat: no-repeat;
+              border: solid 1px #d2e2f0;
+              border-radius: 15px 0 0 15px;
+              display: flex;
+              align-items: center;
+              .in-rect {
+                width: 0%;
+                height: 7px;
+                background: linear-gradient(250deg, transparent 4px, #005DA7 0);
+              }
+            }
+          }
+          .num {
+            margin-left: 8px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .container-feature-box2 {
+      >.branch-progress-bar {
+        min-height: 150px;
+        li {
+          display: flex;
+          align-items: flex-end;
+          align-items: center;
+          .ranking {
+            width: 14px;
+            height: 14px;
+            background: $featureBgColor;
+            line-height: 14px;
+            text-align: center;
+            color: #FFF;
+            font-size: 12px;
+            margin-right: 4px;
+          }
+          .r-active {
+            opacity: 0.5;
+          }
+          .text {
+            text-align: right;
+            font-size: 14px;
+            font-family: Regular;
+            font-weight: 400;
+            color: #000000;
+            line-height: 22px;
+            width: 80px;
+            margin-right: 6px;
+            overflow:hidden; //超出的文本隐藏
+            text-overflow:ellipsis; //溢出用省略号显示
+            white-space:nowrap; //溢出不换行
+          }
+          .progress-bar-box {
+            width: 160px;
+            .out-rect {
+              flex: 1;
+              height: 15px;
+              padding: 0 4px;
+              clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 15px, 100% calc(100% - 0px),
+                  calc(100% - 0px) 100%, 0px 100%, 0 calc(100% - 0px), 0 0px);
+              background: linear-gradient(-45deg, #d2e2f0 0px, rgba(248, 248, 248, 0) 0) bottom right,
+                linear-gradient(45deg, #d2e2f0 0px, rgba(216, 236, 255, 0) 0) bottom left,
+                linear-gradient(135deg, #d2e2f0 0px, rgba(216, 236, 255, 0) 0) top left,
+                linear-gradient(-115deg, #d2e2f0 6px, rgba(216, 236, 255, 0) 0) top right;
+              background-repeat: no-repeat;
+              border: solid 1px #d2e2f0;
+              border-radius: 15px 0 0 15px;
+              display: flex;
+              align-items: center;
+              .in-rect {
+                width: 0%;
+                height: 7px;
+                background: linear-gradient(250deg, transparent 4px, $featureBgColor 0);
+              }
+            }
+          }
+          .num {
+            margin-left: 5px;
+            font-size: 14px;
+          }
+        }
+      }
+      >.hint-text {
+        span {
+          color: #203449;
+        }
+      }
+    }
+  }
+}
+

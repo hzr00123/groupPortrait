@@ -1,0 +1,52 @@
+$--colors: (
+  "primary": (
+    "base": #B22924,
+  ),
+);
+
+@forward "element-plus/theme-chalk/src/common/var.scss" with
+  (
+    $colors: $--colors,
+    $date-editor:("daterange-width": 260px,),
+  );
+@use "element-plus/theme-chalk/src/index.scss" as *;
+
+.el-dialog .el-dialog__header{
+  font-size: 18px;
+  font-family: Medium;
+  font-weight: 500;
+  color: #221715;
+  line-height: 25px;
+  background: #F2F0F0;
+  padding: 12px 15px;
+  margin-right: 0;
+}
+.el-drawer .el-drawer__header {
+  font-size: 18px;
+  font-family: Semibold;
+  font-weight: 600;
+  color: #000000;
+  line-height: 25px;
+  padding: 12px 15px;
+  border-bottom: 1px solid #ECE8E8;
+  margin-bottom: 0;
+}
+.el-dialog__header .el-dialog__headerbtn {
+  width: 50px;
+  height: 50px;
+  top: 0;
+}
+
+.el-dialog__headerbtn .el-dialog__close,
+.el-drawer__header .el-drawer__close-btn{
+  color: #203449;
+  font-size: 20px;
+}
+
+.el-dialog__body, .el-drawer__body{
+  padding: 20px 20px 35px 20px !important;
+}
+
+.el-dialog__footer{
+  padding: 0 20px 20px !important;
+}

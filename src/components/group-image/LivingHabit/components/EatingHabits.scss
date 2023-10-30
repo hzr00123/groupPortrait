@@ -1,0 +1,148 @@
+.EatingHabits{
+  padding: 15px 0 30px;
+  .text {
+    font-family: Regular;
+    color: #203449;
+    line-height: 16px;
+    text-align: center;
+    span {
+      font-family: Bold;
+    }
+  }
+  .mt10{
+    margin-top: 10px;
+  }
+  .mb18{
+    margin-bottom: 18px;
+  }
+  .mlr30{
+    margin: 0 30px;
+  }
+  .cursor{
+    cursor: pointer;
+  }
+
+
+  .EatingHabits-right{
+    width: 100%;
+    padding: 0 20px;
+    .EatingHabits-tab-tag{
+      height: 36px;
+      display: flex;
+      align-items: center;
+    }
+    .EatingHabits-right-content{
+      width: 100%;
+      background: linear-gradient(-45deg, transparent 20px, rgba(220, 221, 221, 0.21) 0);
+      padding: 20px;
+      box-sizing: border-box;
+      margin-top: 14px;
+      .LeftPieChart{
+        width: 100%;
+        height: 280px;
+      }
+      .twoPieChart{
+        width: 100%;
+        height: 115px;
+      }
+      .FourChart{
+        width: 100%;
+        height: 300px;
+      }
+    }
+  }
+}
+
+.EatingHabits-left{
+  width: 100%;
+  padding: 0 20px;
+  .text {
+    font-family: Regular;
+    color: #203449;
+    line-height: 16px;
+    text-align: center;
+    span {
+      font-family: Bold;
+    }
+  }
+  .mt10{
+    margin-top: 10px;
+  }
+  .mb18{
+    margin-bottom: 18px;
+  }
+  .mlr30{
+    margin: 0 30px;
+  }
+  .cursor{
+    cursor: pointer;
+  }
+  .one-tab{
+    margin: 12px 0 18px;
+  }
+  .EatingHabits-left-card-box{
+    margin-bottom: 5px;
+  }
+  .EatingHabits-left-card-box-more{
+    margin: 28px 0 32px;
+  }
+  .EatingHabits-left-chart{
+    width: 100%;
+    height: 214px;
+  }
+  .EatingHabits-left-chart2{
+    width: 100%;
+    height: 342px;
+    margin-top: 34px;
+  }
+  .EatingHabits-left-two-chart-box{
+    position: relative;
+    width: 100%;
+    .two-tab{
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 1;
+    }
+    .two-chart{
+      width: 100%;
+      height: 300px;
+    }
+  }
+  
+  .EatingHabits-left-renderThree{
+    .radio-label{
+      height: 22px;
+      font-size: 16px;
+      color: #203449;
+      line-height: 22px;
+    }
+    .el-radio{
+      margin-right: 16px;
+    }
+    .Amount_stability-chart{
+      width: 100%;
+      height: 310px;
+    }
+    .tag{
+      padding: 10px 0 4px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      color: #F39D12;
+      font-size: 14px;
+      img{
+        width: 15px;
+        height: 15px;
+        display: block;
+        margin-right: 9px;
+      }
+    }
+    
+  }
+  .correlation-chart{
+    width: 100%;
+    height: 352px;
+    margin-top: 85px;
+  }
+}

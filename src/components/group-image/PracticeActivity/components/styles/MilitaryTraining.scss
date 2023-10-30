@@ -1,0 +1,68 @@
+.military{
+    width: 100%;
+    padding: 15px 0px;
+    .military-left{
+        padding-left: 20px;
+    }
+
+    .military-right{
+
+            padding: 15px 20px;
+        
+            >section.sch-right {
+                height: 100%;
+            }
+        
+            .card-box {
+                padding: 0 20px;
+            }
+        
+            &.left {
+                .left-section {
+                    margin-bottom: 40px;
+                }
+        
+                .student-distribution-left-content-top {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 18px;
+                    padding-left: 80px;
+                    .BarLegend{
+                        width: 370px;
+                    }
+                }
+        
+            }
+        
+            .sch-l-chart {
+                height: 350px;
+            }
+        
+            .sch-r-top, .sch-r-bottom {
+                height: calc(50% - 20px);
+            }
+        
+            .sch-chart {
+                height: 100%;
+        
+                .sch-r-top,
+                .sch-r-bottom {
+                    background-color: #F7F7F7;
+                    padding: 20px 0 0 20px;
+                    &.sch-r-bottom{
+                        padding-bottom: 20px;
+                    }
+                    .chart {
+                        height: calc(100% - 25px);
+                        min-height: 195px;
+                    }
+                }
+            }
+        
+    }
+
+    .list-bottom{
+        text-align: center;
+    }
+}

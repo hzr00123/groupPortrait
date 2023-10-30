@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组备份 24</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#56CCF2" offset="0%"></stop>
+            <stop stop-color="#2F80ED" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="新建标签步骤3" transform="translate(-973.000000, -1010.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="编组备份-24" transform="translate(973.500000, 1010.000000)">
+                <path d="M14.2222222,0 L1.77777777,0 C0.795938219,0 0,0.795938219 0,1.77777777 L0,14.2222222 C0,15.2040618 0.795938219,16 1.77777777,16 L14.2222222,16 C15.2040618,16 16,15.2040618 16,14.2222222 L16,1.77777777 C16,0.795938219 15.2040618,0 14.2222222,0 M5.33333333,12.4444444 L3.55555556,12.4444444 L3.55555556,6.22222223 L5.33333333,6.22222223 L5.33333333,12.4444444 M8.8888889,12.4444444 L7.1111111,12.4444444 L7.1111111,3.55555556 L8.8888889,3.55555556 L8.8888889,12.4444444 M12.4444444,12.4444444 L10.6666667,12.4444444 L10.6666667,8.8888889 L12.4444444,8.8888889 L12.4444444,12.4444444 Z" id="形状"></path>
+            </g>
+        </g>
+    </g>
+</svg>

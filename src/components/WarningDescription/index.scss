@@ -1,0 +1,50 @@
+.warn-info-role {
+    display: flex;
+    flex-wrap: wrap;
+    >section[constom-des=true] {
+        display: flex;
+        width: 570px;
+        height: 48px;
+        line-height: 48px;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-right: 20px;
+
+        >label {
+            width: 90px;
+            height: 100%;
+            color: #FFFFFF;
+            background-color: #1B528B;
+        }
+
+        >div {
+            color: #203449;
+            flex: 1;
+            text-align: start;
+            padding: 0 10px;
+            background: linear-gradient(-45deg, transparent 10px, #B8C9DC 0);
+            position: relative;
+
+            >span {
+                position: absolute;
+                z-index: 10;
+                width: 460px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            &::after {
+                content: '';
+                display: inline-block;
+                width: calc(100% - 2px);
+                height: calc(100% - 2px);
+                position: absolute;
+                left: 1px;
+                top: 1px;
+                z-index: 9;
+                background: linear-gradient(-45deg, transparent 10px, #F9FBFD 0);
+            }
+        }
+    }
+}

@@ -1,0 +1,164 @@
+.RuleOfLife{
+  padding: 15px 0 30px;
+  .text {
+    font-family: Regular;
+    color: #203449;
+    line-height: 16px;
+    text-align: center;
+    span {
+      font-family: Bold;
+    }
+  }
+  .mt10{
+    margin-top: 10px;
+  }
+  .mb18{
+    margin-bottom: 18px;
+  }
+  .mlr30{
+    margin: 0 30px;
+  }
+  .cursor{
+    cursor: pointer;
+  }
+
+
+
+
+  .RuleOfLife-right{
+    width: 100%;
+    padding: 0 20px;
+    .RuleOfLife-tab-tag{
+      height: 36px;
+      display: flex;
+      align-items: center;
+    }
+    .RuleOfLife-right-content{
+      width: 100%;
+      background: linear-gradient(-45deg, transparent 20px, rgba(220, 221, 221, 0.21) 0);
+      padding: 20px;
+      box-sizing: border-box;
+      margin-top: 14px;
+
+      .small-box{
+        width: 100%;
+        height: 56px;
+        background: #FFFFFF;
+        border-radius: 12px;
+        padding: 4px;
+        .small-box-tag{
+          width: 48px;
+          height: 48px;
+          background: #005DA7;
+          border-radius: 12px;
+          font-size: 14px;
+          line-height: 20px;
+          color: #fff;
+          display: flex;
+          align-items: center;
+          padding: 0 10px;
+          margin-right: 16px;
+        }
+      }
+      .Lifestyle_population-content{
+        height: 305px;
+        .Lifestyle_population-content-left{
+          width: 50%;
+        }
+        .Lifestyle_population-content-right{
+          width: 50%;
+
+          .one{
+            margin: 0 auto 28px;
+            .el-progress-circle__track {
+              stroke: #e1eaef;
+              stroke-width: 6;
+            }
+          }
+          .percentage-value {
+            font-size: 26px;
+            font-family: Bold;
+            span {
+              font-size: 16px;
+              font-family: Regular;
+            }
+          }
+          .one-value{
+            font-size: 16px;
+            font-family: Bold;
+            margin-top: 2px;
+          }
+        }
+      }
+
+      .sex_difference-box{
+        .sex_difference-box-l{
+          width: 50%;
+        }
+        .sex_difference-box-r{
+          width: 50%;
+        }
+      }
+      .twoPieChart{
+        width: 100%;
+        height: 230px;
+      }
+
+    }
+  }
+}
+
+.RuleOfLife-left{
+  width: 100%;
+  padding: 0 20px;
+
+  .one-tab{
+    margin: 12px 0 18px;
+  }
+  .RuleOfLife-left-card-box{
+    margin-bottom: 5px;
+  }
+  .RuleOfLife-left-card-box-more{
+    margin: 28px 0 32px;
+  }
+  .RuleOfLife-left-chart{
+    width: 100%;
+    height: 300px;
+    margin-top: 54px;
+  }
+  .RuleOfLife-left-chart2{
+    width: 100%;
+    height: 342px;
+    margin-top: 34px;
+  }
+  .RuleOfLife-left-two-chart-box{
+    position: relative;
+    width: 100%;
+    .two-tab{
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 1;
+    }
+    .two-chart{
+      width: 100%;
+      height: 300px;
+    }
+  }
+  
+  .correlation-chart{
+    width: 100%;
+    height: 352px;
+    margin-top: 85px;
+  }
+
+  .text {
+    font-family: Regular;
+    color: #203449;
+    line-height: 16px;
+    text-align: center;
+    span {
+      font-family: Bold;
+    }
+  }
+}

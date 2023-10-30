@@ -1,0 +1,283 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+ html,
+ body,
+ div,
+ span,
+ applet,
+ object,
+ iframe,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ blockquote,
+ pre,
+ a,
+ abbr,
+ acronym,
+ address,
+ big,
+ cite,
+ code,
+ del,
+ dfn,
+ em,
+ img,
+ ins,
+ kbd,
+ q,
+ s,
+ samp,
+ small,
+ strike,
+ strong,
+ sub,
+ sup,
+ tt,
+ var,
+ b,
+ u,
+ i,
+ center,
+ dl,
+ dt,
+ dd,
+ ol,
+ ul,
+ li,
+ fieldset,
+ form,
+ label,
+ legend,
+ table,
+ caption,
+ tbody,
+ tfoot,
+ thead,
+ tr,
+ th,
+ td,
+ article,
+ aside,
+ canvas,
+ details,
+ embed,
+ figure,
+ figcaption,
+ footer,
+ header,
+ menu,
+ nav,
+ output,
+ ruby,
+ section,
+ summary,
+ time,
+ mark,
+ audio,
+ video,
+ input {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font-weight: normal;
+   vertical-align: baseline;
+   box-sizing: border-box;
+ }
+ 
+ /* HTML5 display-role reset for older browsers */
+ article,
+ aside,
+ details,
+ figcaption,
+ figure,
+ footer,
+ header,
+ menu,
+ nav,
+ section {
+   display: block;
+ }
+ 
+ body {
+   line-height: 1;
+ }
+ 
+ blockquote,
+ q {
+   quotes: none;
+ }
+ 
+ blockquote:before,
+ blockquote:after,
+ q:before,
+ q:after {
+   content: none;
+ }
+ 
+ table {
+   border-collapse: collapse;
+   border-spacing: 0;
+ }
+ 
+ /* custom */
+ a {
+   color: #7e8c8d;
+   text-decoration: none;
+   -webkit-backface-visibility: hidden;
+ }
+ 
+ li {
+   list-style: none;
+ }
+ 
+ ::-webkit-scrollbar {
+   width: 5px;
+   height: 5px;
+ }
+ 
+ ::-webkit-scrollbar-track-piece {
+   background-color: #e4e7ed;
+   -webkit-border-radius: 6px;
+ }
+ 
+ ::-webkit-scrollbar-thumb:vertical {
+   height: 5px;
+   background-color: #ced2d8;
+   -webkit-border-radius: 6px;
+ }
+ 
+ ::-webkit-scrollbar-thumb:horizontal {
+   width: 5px;
+   background-color: #ced2d8;
+   -webkit-border-radius: 6px;
+ }
+ 
+ html,
+ #app {
+   width: 100%;
+   height: 100%;
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Medium;
+ }
+ body {
+   -webkit-text-size-adjust: none;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   width: 100%;
+   min-width: 1700px;
+   height: 100%;
+   padding: 55px 80px;
+   background-image: url('@/assets/imgs/home-bg.png');
+   background-size: cover;
+   background-color: #F1F2F5;
+   overflow-x: auto;
+   &::-webkit-scrollbar-thumb:horizontal {
+     width: 5px;
+     background-color: #333333;
+     -webkit-border-radius: 6px;
+   }
+ }
+ 
+ .mg-b10 { margin-bottom: 10px }
+ .mg-b15 { margin-bottom: 15px }
+ .mg-b20 { margin-bottom: 20px }
+ .mg-b30 { margin-bottom: 30px }
+ .mg-b40 { margin-bottom: 40px }
+ .mg-b50 { margin-bottom: 50px }
+ .mg-b60 { margin-bottom: 60px }
+ .mg-b70 { margin-bottom: 70px }
+ .mg-b80 { margin-bottom: 80px }
+ .mg-b90 { margin-bottom: 90px }
+ .mg-b100 { margin-bottom: 100px }
+ .flex { display: flex; }
+ .just-c { justify-content: center; }
+ .just-b { justify-content: space-between; }
+ .just-a { justify-content: space-around; }
+ .align-items-c { align-items: center; }
+ .w100 { width: 100%; }
+ .h100 { height:  100%; }
+ .w49{ width: 49%; }
+ .w50 { width: 50%; }
+
+.c-title {
+  font-size: 18px;
+  font-family: SemiBold;
+  color: #203449;
+  line-height: 25px;
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #B22A25;
+    border-radius: 50%;
+    margin-right: 6px;
+  }
+}
+
+.sb{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-start{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex-end{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mt12{
+  margin-top: 12px;
+}
+.mr15{
+  margin-right: 15px;
+}
+.mt30{
+  margin-top: 30px;
+}
+.dropdown-style {
+  .el-dropdown-menu__item {
+    &:focus {
+      background-color: #E9F0FF !important;
+      color: #005DA7 !important;
+    }
+  }
+}
+
+.horizontal{
+  justify-content: space-between;
+}
+.vertical{
+  flex-direction: column;
+}
+
+/**
+ * 解决el-input设置类型为number时，中文输入法光标上移问题
+ **/
+ .el-input__inner{
+  line-height: 1px !important;
+}
+/* 隐藏数字输入框三角符号 */
+// input::-webkit-outer-spin-button,
+// input::-webkit-inner-spin-button {
+//   -webkit-appearance: none;
+// }

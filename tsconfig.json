@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "resolveJsonModule": true, //允许导入扩展名为“.json”的模块
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM", "dom.iterable", "scripthost"],
+    "skipLibCheck": true,
+    "noEmit": false, // 不输出文件,即编译后不会生成任何js文件
+    "sourceMap": true,
+    "types": [
+      "vite/client",
+      "element-plus/global",
+      "vite-plugin-svg-icons/client", // 【svg-icons相关】
+      "node", // 【svg-icons相关】
+      "src/types/global.d.ts"
+      ], // 要包含的类型声明文件名列表
+    "typeRoots": [
+      "node_modules/@types", // 默认值
+      "src/types"
+    ], // 声明文件目录，默认时node_modules/@types
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/types/*.d.ts"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

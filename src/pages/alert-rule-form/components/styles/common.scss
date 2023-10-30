@@ -1,0 +1,29 @@
+.cards-box {
+      display: flex;
+      justify-content: space-around;
+      // :deep(.mini-card) {
+      //     &:first-child {
+      //         margin-right: 30px;
+      //     }
+      // }
+  }
+
+  .el-tabs__nav {
+      height: 58px;
+      align-items: center;
+  }
+  .el-tabs__active-bar {
+      width: 30px !important;
+      height: 4px;
+      border-radius: 2px;
+  }
+  .el-tabs__item {
+      font-size: 20px;
+      font-family: Medium;
+      font-weight: 500;
+      color: #767676;
+      line-height: 28px;
+      &.is-active {
+          color: #000000;
+      }
+  }

@@ -1,0 +1,816 @@
+.el-tabs__header {
+  .operate-btn {
+    z-index: 9;
+    position: absolute;
+    bottom: -25px;
+    left: 98%;
+
+    &:nth-child(2) {
+      left: 46% !important;
+    }
+
+    // &:last-child {
+    //     left: 98%;
+    // }
+  }
+}
+
+.custom-groups {
+
+  // display: flex;
+  // justify-content: space-between;
+  .container {
+    padding: 12px;
+    height: 356px;
+    // border: 1px solid rgba(151,151,151,0.13);
+    // width: 49%;
+    position: relative;
+    overflow: auto;
+
+    .operate-btn {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      z-index: 9;
+    }
+
+    .add-btn {
+      border-radius: 6px;
+      color: #1C538B;
+      border-color: #D6E4F1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      &:hover,
+      &:focus {
+        background: #1C538B;
+        color: #FFF;
+
+        .el-icon {
+          color: #FFF;
+        }
+      }
+    }
+
+    .student-distribution {
+      padding: 0 !important;
+
+      .student-distribution-left {
+        padding-right: 0;
+
+        .student-distribution-left-top {
+          display: none !important;
+        }
+
+        .student-distribution-left-content {
+          margin-top: 0 !important;
+        }
+      }
+    }
+
+    .two-content {
+      >.title-box {
+        display: none;
+      }
+    }
+
+    .school-Work {
+      .academic-level-one {
+        .academic-level-left-top {
+          display: none;
+        }
+
+        .gpa-contrast,
+        .gpa-score-outlier {
+          height: 200px !important;
+        }
+
+        .left-box {
+          .gauge-box {
+            right: -20px !important;
+          }
+        }
+      }
+    }
+
+    .self-study-and-self-study {
+      padding: 0 !important;
+
+      .academic-level-three {
+        padding: 0 !important;
+
+        .sb {
+          justify-content: flex-end;
+
+          .title-box {
+            display: none !important;
+          }
+        }
+      }
+    }
+
+    .performance-impact {
+      padding: 0 !important;
+
+      .academic-level-four {
+        padding: 0 !important;
+
+        .sb {
+          display: none;
+        }
+
+        .c-title {
+          &:first-child {
+            margin-top: 0 !important;
+          }
+        }
+
+      }
+    }
+
+    .over-view,
+    .academic-papers,
+    .academic-works,
+    .research-report,
+    .artistic-works,
+    .appraisal-results {
+      padding: 0 !important;
+
+      >.w100 {
+        padding: 0 !important;
+
+        .ScientificResearch-one {
+          padding: 0 !important;
+
+          .title-box {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .scholarship {
+      padding: 0 !important;
+
+      >.left-section {
+        margin-bottom: 20px;
+
+        .title-box {
+          display: none;
+        }
+
+        .card-box {
+          padding: 0 !important;
+        }
+
+        .BarMultiSegment {
+          overflow: auto;
+        }
+      }
+    }
+
+    .duration-flow-rate-left {
+      padding: 0 !important;
+
+      .left-content {
+        padding: 0 !important;
+
+        .sb {
+          display: none;
+        }
+
+        .card-box {
+          height: auto !important;
+        }
+      }
+    }
+
+    .course-progress {
+      >.academic-level-two {
+        >.title-box {
+          display: none;
+        }
+      }
+    }
+
+    .OnlineLocation {
+      width: 1500px;
+      overflow: auto;
+    }
+
+    .net-diversity-left {
+      padding: 0 !important;
+
+      .left-content {
+        padding: 0 !important;
+
+        .sb {
+          &:first-child {
+            display: none;
+          }
+        }
+      }
+    }
+
+    >.LoanSupplement {
+      min-width: 700px !important;
+
+      .left-section {
+        .sb {
+          display: none;
+        }
+      }
+    }
+
+    .consumption-situation_panle-container {
+      min-width: 700px;
+
+      .left-container {
+        padding: 0 !important;
+
+        .container-title,
+        .inline-block {
+          display: none;
+        }
+
+        .chart {
+          height: 250px;
+          width: 100%;
+        }
+
+        .select-list.absolute {
+          top: 12px;
+          left: 12px;
+        }
+
+        .Consumption_place_box {
+          min-width: 1500px;
+
+          .fixed-tool {
+            top: 20px !important;
+          }
+
+          .separate-bar {
+            top: 0 !important;
+          }
+
+          .fixed-panle {
+            top: 80px !important;
+          }
+        }
+
+        .card-list {
+          max-width: 700px;
+        }
+      }
+    }
+
+    .health-evaluation-left,
+    .school-hospital-left {
+      width: 100% !important;
+      padding: 0 !important;
+
+      .left-content {
+        padding: 0 !important;
+
+        .title-box {
+          display: none;
+        }
+
+        .chart {
+          margin-top: 0 !important;
+          height: 280px;
+        }
+
+        .chart-box {
+          margin-top: 15px;
+          height: 280px;
+        }
+
+        .card-box {
+          justify-content: space-between;
+          margin-top: 15px;
+        }
+      }
+    }
+
+    .BathingHabits-left {
+      padding: 0 !important;
+
+      .BathingHabits-left-card-box {
+        margin-top: 0 !important;
+        // justify-content: space-between;
+      }
+
+      .Bathing-location-content {
+        // padding: 0 !important;
+        width: 1500px;
+      }
+    }
+
+    .RuleOfLife-left {
+      padding: 0 !important;
+
+      >.flex-end {
+        .one-tab {
+          display: none;
+        }
+      }
+    }
+
+    .comprehensive-face {
+      padding: 0 !important;
+
+      .comprehensive-face-left {
+        .title-box {
+          display: none;
+        }
+
+        .content {
+          margin: 0 !important;
+        }
+      }
+    }
+
+    .EatingHabits-left {
+      padding: 0 !important;
+
+      .EatingHabits-left-chart2 {
+        height: 250px;
+      }
+
+      .EatingHabits-left-renderThree {
+        .blue-tab {
+          display: none;
+        }
+
+        >.sb {
+          display: flex !important;
+
+          .sb {
+            display: flex !important;
+          }
+        }
+      }
+
+      .sb {
+        display: none;
+      }
+    }
+
+    .SleepAndRest-left {
+      padding: 0 !important;
+
+      .SleepAndRest-left-chart {
+        margin: 0 !important;
+      }
+    }
+
+    .DormitoryMange-left {
+      padding: 0 !important;
+
+      .title-box {
+        display: none;
+      }
+    }
+
+    .RuleOfLife-left {
+      .RuleOfLife-left-chart {
+        margin: 0 !important;
+      }
+
+      .sb {
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+    }
+  }
+}
+
+.innovation-business-left {
+  height: 100%;
+
+  .industry-charts {
+    height: 100% !important;
+  }
+}
+
+.destination-after-graduation-left {
+  height: 100%;
+
+  .salary-charts {
+    height: 100% !important;
+  }
+}
+
+.destination-after-graduation-left {
+  height: 100%;
+
+  .industry-charts {
+    height: 100% !important;
+  }
+}
+
+.china-map {
+  height: 100% !important;
+}
+
+.add-behavior-analysis {
+  .behavior-analysis-container {
+    // height: 600px;
+    display: flex;
+    justify-content: space-between;
+
+    .behavior-analysis-left {
+      >section {
+        height: 600px;
+
+        .tree-container {
+          border: 1px solid #E5E8EA;
+          border-radius: 2px;
+
+          .el-tree-node {
+            >.el-tree-node__children {
+              overflow: visible !important
+            }
+          }
+
+          .el-scrollbar__wrap {
+            height: 100% !important;
+          }
+
+          .c-card {
+            section {
+              padding-top: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    .charts-view {
+      >header {
+        background: #F1F4F8;
+        border: 1px solid #D6E4F1;
+        padding: 14px;
+      }
+
+      >section {
+        border: 1px solid #D6E4F1;
+        border-top: none;
+        padding: 20px;
+        height: 545px;
+        overflow: auto;
+
+        .career-planning-left {
+          .text-hint {
+            margin-left: 24%;
+          }
+        }
+
+        .china-map {
+          height: 100% !important;
+        }
+
+        .student-distribution {
+          padding: 0 !important;
+
+          .student-distribution-left {
+            padding-right: 0;
+
+            .student-distribution-left-top {
+              display: none !important;
+            }
+
+            .student-distribution-left-content {
+              margin-top: 0 !important;
+            }
+          }
+        }
+
+        .two-content {
+          >.title-box {
+            display: none;
+          }
+        }
+
+        .school-Work {
+          .academic-level-one {
+            .academic-level-left-top {
+              display: none;
+            }
+
+            .gpa-contrast,
+            .gpa-score-outlier {
+              height: 200px !important;
+            }
+
+            .left-box {
+              .gauge-box {
+                right: -20px !important;
+              }
+            }
+          }
+        }
+
+        .self-study-and-self-study {
+          padding: 0 !important;
+
+          .academic-level-three {
+            padding: 0 !important;
+
+            .sb {
+              justify-content: flex-end;
+
+              .title-box {
+                display: none !important;
+              }
+            }
+          }
+        }
+
+        .performance-impact {
+          padding: 0 !important;
+
+          .academic-level-four {
+            padding: 0 !important;
+
+            .sb {
+              display: none;
+            }
+
+            .c-title {
+              &:first-child {
+                margin-top: 0 !important;
+              }
+            }
+
+          }
+        }
+
+        .over-view,
+        .academic-papers,
+        .academic-works,
+        .research-report,
+        .artistic-works,
+        .appraisal-results {
+          padding: 0 !important;
+
+          >.w100 {
+            padding: 0 !important;
+
+            .ScientificResearch-one {
+              padding: 0 !important;
+
+              .title-box {
+                display: none;
+              }
+            }
+          }
+        }
+
+        .scholarship {
+          padding: 0 !important;
+
+          >.left-section {
+            margin-bottom: 20px;
+
+            .title-box {
+              display: none;
+            }
+
+            .card-box {
+              padding: 0 !important;
+            }
+
+            .BarMultiSegment {
+              overflow: auto;
+            }
+          }
+        }
+
+        .duration-flow-rate-left {
+          padding: 0 !important;
+
+          .left-content {
+            padding: 0 !important;
+
+            .sb {
+              display: none;
+            }
+
+            .card-box {
+              height: auto !important;
+            }
+          }
+        }
+
+        .course-progress {
+          >.academic-level-two {
+            >.title-box {
+              display: none;
+            }
+          }
+        }
+
+        .OnlineLocation {
+          width: 1500px;
+          overflow: auto;
+        }
+
+        .net-diversity-left {
+          padding: 0 !important;
+
+          .left-content {
+            padding: 0 !important;
+
+            .sb {
+              &:first-child {
+                display: none;
+              }
+            }
+          }
+        }
+
+        >.LoanSupplement {
+          .left-section {
+            .sb {
+              display: none;
+            }
+          }
+        }
+
+        .consumption-situation_panle-container {
+          min-width: 700px;
+
+          .left-container {
+            padding: 0 !important;
+
+            .container-title,
+            .inline-block {
+              display: none;
+            }
+
+            .chart {
+              height: 250px;
+              width: 100%;
+            }
+
+            .select-list.absolute {
+              top: 12px;
+              left: 12px;
+            }
+
+            .Consumption_place_box {
+              min-width: 1500px;
+
+              .fixed-tool {
+                top: 20px !important;
+              }
+
+              .separate-bar {
+                top: 0 !important;
+              }
+
+              .fixed-panle {
+                top: 80px !important;
+              }
+            }
+
+            .card-list {
+              max-width: 700px;
+            }
+          }
+        }
+
+        .health-evaluation-left,
+        .school-hospital-left {
+          width: 100% !important;
+          padding: 0 !important;
+
+          .left-content {
+            padding: 0 !important;
+
+            .title-box {
+              display: none;
+            }
+
+            .chart {
+              margin-top: 0 !important;
+              height: 280px;
+            }
+
+            .chart-box {
+              margin-top: 15px;
+              height: 280px;
+            }
+
+            .card-box {
+              justify-content: space-between;
+              margin-top: 15px;
+            }
+          }
+        }
+
+        .BathingHabits-left {
+          padding: 0 !important;
+
+          .BathingHabits-left-card-box {
+            margin-top: 0 !important;
+            // justify-content: space-between;
+          }
+
+          .Bathing-location-content {
+            padding: 0 !important;
+            width: 1500px;
+          }
+        }
+
+        .RuleOfLife-left {
+          padding: 0 !important;
+
+          >.flex-end {
+            .one-tab {
+              display: none;
+            }
+          }
+        }
+
+        .EatingHabits-left {
+          padding: 0 !important;
+
+          .EatingHabits-left-chart2 {
+            height: 250px;
+          }
+
+          .EatingHabits-left-renderThree {
+            .blue-tab {
+              display: none;
+            }
+
+            >.sb {
+              display: flex !important;
+
+              .sb {
+                display: flex !important;
+              }
+            }
+          }
+
+          .sb {
+            display: none;
+          }
+        }
+
+        .comprehensive-face {
+          padding: 0 !important;
+
+          .comprehensive-face-left {
+            .title-box {
+              display: none;
+            }
+
+            .content {
+              margin: 0 !important;
+            }
+          }
+        }
+
+        .SleepAndRest-left {
+          padding: 0 !important;
+
+          .SleepAndRest-left-chart {
+            margin: 0 !important;
+          }
+        }
+
+        .DormitoryMange-left {
+          padding: 0 !important;
+
+          .title-box {
+            display: none;
+          }
+        }
+
+        .RuleOfLife-left {
+          .RuleOfLife-left-chart {
+            margin: 0 !important;
+          }
+        }
+      }
+    }
+  }
+
+  .el-dialog__body {
+    padding-bottom: 20px !important;
+  }
+}
+
+.RuleOfLife-tab-box,
+.BathingHabits-left {
+  .blue-tab {
+    display: none;
+  }
+}
